@@ -1,0 +1,31 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "API server with Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klace650/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klace650/api-server/issues"
+  },
+  "homepage": "https://github.com/klace650/api-server#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "httpie": "^1.1.2",
+    "jest": "^26.6.3",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {}
+}
